@@ -91,7 +91,7 @@ testX, testy = load_dataset('data/val/')
 # save arrays to one file in compressed format
 savez_compressed('dataset.npz', trainX, trainy, testX, testy)
 
-####----------------------------------------------------------------------------------####
+####-------------------------------------------------------------------------####
 
 # get the face embedding for one face
 def get_embedding(model, face_pixels):
